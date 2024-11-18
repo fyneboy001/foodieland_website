@@ -1,0 +1,397 @@
+* {
+  box-sizing: border-box;
+}
+hr {
+  height: 1px;
+  width: 100%;
+}
+header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+ul {
+  display: flex;
+}
+ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:active {
+  color: red;
+}
+.socia {
+  padding: 10px;
+}
+.first {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.Hotrecipes {
+  height: 700px;
+  width: 50%;
+  background-color: #e7fafe;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.badge {
+  height: 700px;
+  width: 50%;
+  background-image: url("/Images/Image\ 1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.bdg {
+  transform: translateX(-70px);
+  margin-top: 35px;
+}
+.sppa,
+.fork {
+  margin-left: 40px;
+}
+.fork {
+  height: 50px;
+  display: flex;
+}
+.spicy {
+  font-size: 70px;
+  margin-left: 40px;
+  margin-top: 0px;
+}
+.john {
+  height: 100px;
+  width: 90%;
+  display: flex;
+  margin-top: 20%;
+  justify-content: space-between;
+}
+.jhn,
+.vidbtn {
+  display: flex;
+}
+.viewbtn {
+  height: 40px;
+  width: 100%;
+  padding-right: 40px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+.vid {
+  height: 20px;
+  transform: translateX(-35px);
+  margin-top: 10px;
+}
+.second {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  align-content: center;
+  padding: 30px;
+}
+.cate {
+  height: 40px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 25px;
+  margin-bottom: 45px;
+}
+.catbtn {
+  height: 40px;
+  width: 15%;
+  background-color: #e7fafe;
+  border: none;
+  border-radius: 10px;
+}
+.view {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.brea {
+  height: 180px;
+  width: 150px;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+}
+.break {
+  background: linear-gradient(to top, #7082461a, #70824600);
+}
+.vegan {
+  background: linear-gradient(to top, #6cc63f1a, #6cc63f00);
+}
+.meat {
+  background: linear-gradient(to top, #cc261b1a, #cc261b00);
+}
+.dessert {
+  background: linear-gradient(to top, #f09e001a, #f09e0000);
+}
+.lunch {
+  background: linear-gradient(to top, #0000000d, #00000000);
+}
+.chocolate {
+  background: linear-gradient(to top, #0000000d, #00000000);
+}
+.third {
+  height: 190vh;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+.fok {
+  display: flex;
+  margin-top: 0px;
+  padding-left: 20px;
+}
+.foks {
+  display: flex;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+.tim {
+  margin-left: 20px;
+}
+.rep {
+  height: 180vh;
+  width: 30%;
+  justify-content: center;
+}
+.per {
+  margin-right: 50px;
+}
+.recip {
+  height: 300px;
+  width: 80%;
+  background: linear-gradient(to top, #e7f9fd, #e7f9fd00);
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.repsize {
+  height: 180px;
+  width: 100%;
+  margin-top: 0px;
+  border-radius: 20px;
+  margin-right: 10%;
+}
+.advert {
+  height: 300px;
+  width: 45vh;
+  margin-top: 5px;
+}
+.container {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  margin-left: 10%;
+}
+.forth {
+  height: 500px;
+  width: 100%;
+  display: flex;
+}
+.kitchen {
+  height: 450px;
+  width: 50%;
+  background-color: white;
+  text-align: start;
+  padding-top: 10%;
+  padding-left: 5%;
+}
+.every {
+  margin-bottom: 5%;
+  font-family: sans-serif;
+  font-size: 35px;
+}
+.learnbtn {
+  height: 40px;
+  width: 20%;
+  margin-top: 7%;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.happychef {
+  height: 90%;
+  margin-left: 50px;
+  margin-top: 7.5%;
+}
+.chef {
+  height: 450px;
+  width: 50%;
+  background: linear-gradient(to top, #e7f9fd, #e7f9fd00);
+  margin-right: 5%;
+  border-radius: 20px;
+}
+.fifth {
+  height: 140vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 4%;
+  padding-right: 4%;
+  background: linear-gradient(to top, #e7f9fd, #e7f9fd00);
+}
+.Checkout {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+.checkimg {
+  height: 70vh;
+  width: 22%;
+  background-color: white;
+}
+.chkpng {
+  height: 40vh;
+  width: 100%;
+  margin-top: 20%;
+}
+.checkbtn {
+  height: 40px;
+  width: 20%;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.insta {
+  transform: translateX(-55px);
+  color: white;
+}
+.sixth {
+  height: 120vh;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.try {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10%;
+}
+.deli,
+.para {
+  padding: 20px;
+}
+.line {
+  height: 80vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+.line1 {
+  height: 95vh;
+  width: 22%;
+}
+.lineimage {
+  height: 165px;
+  border-radius: 20px;
+  margin-left: 4px;
+}
+.line2 {
+  margin-top: 10%;
+}
+.seventh {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  margin-top: 50px;
+}
+.subseventh {
+  height: 400px;
+  width: 95%;
+  background-color: #e7f9fd;
+  margin-left: 2.5%;
+  border-radius: 30px;
+  padding-bottom: 5px;
+}
+.inbox {
+  padding-top: 40px;
+}
+.flower {
+  height: 20pc;
+  transform: translateY(-47px);
+}
+.foo {
+  height: 200px;
+  transform: translateY(15px);
+}
+.subscribe {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input {
+  height: 50px;
+  width: 30%;
+  border-radius: 20px;
+  border: none;
+  padding: 15px;
+}
+.sub {
+  height: 40px;
+  width: 10%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transform: translateX(-130px);
+}
+footer {
+  height: 200px;
+  width: 100%;
+  padding: 30px;
+}
+.fdland {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.flowbase {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.powered {
+  margin-left: 40%;
+}

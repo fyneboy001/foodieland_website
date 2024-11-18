@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+}
+hr {
+  height: 1px;
+  width: 100%;
+}
+header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+ul {
+  display: flex;
+}
+ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:active {
+  color: red;
+}
+.socia {
+  padding: 10px;
+}
+.first {
+  height: 125vh;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 40px 0px 40px;
+}
+.full {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.march {
+  height: 50px;
+  width: 50%;
+  display: flex;
+  margin-left: 30%;
+  margin-bottom: 25px;
+}
+.date {
+  margin-left: 15%;
+}
+.col {
+  display: flex;
+  padding-left: 20px;
+}
+.fire {
+  height: 70vh;
+  width: 85%;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+.second {
+  height: 240vh;
+  width: 100%;
+  padding-left: 15%;
+  padding: 0% 15% 0% 15%;
+  display: flex;
+}
+.subsecond {
+  height: 240vh;
+  width: 80%;
+}
+.industry {
+  height: 150px;
+  width: 100%;
+}
+.cook {
+  height: 550px;
+  width: 100%;
+  line-height: 20px;
+}
+.quest {
+  height: 150px;
+  width: 100%;
+  background: linear-gradient(to left, #00000000, #0000000d);
+  font-style: italic;
+  font-weight: 900px;
+  font-size: 20px;
+  line-height: 50px;
+  padding: 0px 20px;
+}
+.share {
+  height: 200px;
+  width: 20%;
+  font-size: 10px;
+  margin-left: 40px;
+  padding-bottom: 10px;
+}
+.soc {
+  padding-bottom: 20px;
+  margin-left: 50px;
+}
+.third {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  margin-top: 50px;
+}
+.subthird {
+  height: 400px;
+  width: 95%;
+  background-color: #e7f9fd;
+  margin-left: 2.5%;
+  border-radius: 30px;
+  padding-bottom: 5px;
+}
+.inbox {
+  padding-top: 40px;
+}
+.flower {
+  height: 20pc;
+  transform: translateY(-47px);
+}
+.foo {
+  height: 200px;
+  transform: translateY(15px);
+}
+.subscribe {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fourth {
+  height: 400px;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.recomendation {
+  height: 350px;
+  width: 100%;
+  display: flex;
+}
+.western {
+  display: flex;
+  margin-left: 10px;
+}
+.input {
+  height: 50px;
+  width: 30%;
+  border-radius: 20px;
+  border: none;
+  padding: 15px;
+}
+.sub {
+  height: 40px;
+  width: 10%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transform: translateX(-130px);
+}
+footer {
+  height: 200px;
+  width: 100%;
+}
+.fdland {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.flowbase {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.powered {
+  margin-left: 40%;
+  padding-top: 10px;
+}

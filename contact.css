@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+ul {
+  display: flex;
+}
+ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:active {
+  color: red;
+}
+.socia {
+  padding: 10px;
+}
+.first {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+}
+.thumpsup {
+  height: 430px;
+  width: 35%;
+  background: linear-gradient(to top, #e7f9fd, #e7f9fd00);
+}
+.data {
+  height: 430px;
+  width: 63%;
+}
+.subdata {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.inputdata {
+  height: 45px;
+  width: 22pc;
+  border-radius: 10px;
+  padding-left: 30px;
+}
+.message {
+  height: 150px;
+  width: 100%;
+  border-radius: 20px;
+}
+.message:focus {
+  padding-top: 0px;
+}
+.subbtn {
+  height: 40px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+.second {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  margin-top: 50px;
+}
+.subsecond {
+  height: 400px;
+  width: 95%;
+  background-color: #e7f9fd;
+  margin-left: 2.5%;
+  border-radius: 30px;
+  padding-bottom: 5px;
+}
+.inbox {
+  padding-top: 40px;
+}
+.flower {
+  height: 20pc;
+  transform: translateY(-47px);
+}
+.foo {
+  height: 200px;
+  transform: translateY(15px);
+}
+.subscribe {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.third {
+  height: 400px;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.recomendation {
+  height: 350px;
+  width: 100%;
+  display: flex;
+}
+.western {
+  display: flex;
+  margin-left: 10px;
+}
+.input {
+  height: 50px;
+  width: 30%;
+  border-radius: 20px;
+  border: none;
+  padding: 15px;
+}
+.sub {
+  height: 40px;
+  width: 10%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transform: translateX(-130px);
+}
+footer {
+  height: 200px;
+  width: 100%;
+}
+.fdland {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.flowbase {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.powered {
+  margin-left: 40%;
+  padding-top: 10px;
+}

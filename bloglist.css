@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+ul {
+  display: flex;
+}
+ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:active {
+  color: red;
+}
+.socia {
+  padding: 10px;
+}
+.first {
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  padding: 0px 40px 0px 40px;
+}
+.art {
+  height: 100px;
+  width: 100%;
+  padding-top: 10px;
+}
+.email {
+  height: 50px;
+  width: 40%;
+  border-radius: 15px;
+  padding-left: 20px;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+.search {
+  height: 40px;
+  width: 10%;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  transform: translateX(-8.5pc);
+}
+.second {
+  height: 220vh;
+  width: 100%;
+  padding: 0px 40px 0px 40px;
+}
+.subsecond {
+  height: 200vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.replist {
+  height: 300vh;
+  width: 60%;
+}
+.blog {
+  height: 200px;
+  width: 100%;
+  display: flex;
+}
+.listcnt {
+  height: 200px;
+  width: 65%;
+  padding-left: 40px;
+}
+.blogimage {
+  height: 170px;
+  border-radius: 20px;
+  margin-top: 3%;
+}
+.waden {
+  height: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.war {
+  display: flex;
+}
+.para {
+  padding-left: 10px;
+}
+.nbmbtn {
+  display: flex;
+  text-align: center;
+}
+.paula {
+  height: 200vh;
+  width: 30%;
+  margin-right: 50px;
+}
+.tasty {
+  height: 75vh;
+  width: 100%;
+}
+.tastyimage {
+  height: 100px;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.creamy {
+  height: 120px;
+  width: 100%;
+  display: flex;
+}
+.pork {
+  padding-left: 30px;
+}
+.adimage {
+  height: 350px;
+}
+.nmbbtn {
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+.third {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  margin-top: 50px;
+}
+.subthird {
+  height: 400px;
+  width: 95%;
+  background-color: #e7f9fd;
+  margin-left: 2.5%;
+  border-radius: 30px;
+  padding-bottom: 5px;
+}
+.inbox {
+  padding-top: 40px;
+}
+.subscribe {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  height: 50px;
+  width: 30%;
+  border-radius: 20px;
+  border: none;
+  padding: 15px;
+}
+.sub {
+  height: 40px;
+  width: 10%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transform: translateX(-130px);
+}
+.seventh {
+  height: 400px;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.recomendation {
+  height: 350px;
+  width: 100%;
+  display: flex;
+}
+.western {
+  display: flex;
+  margin-left: 10px;
+}
+footer {
+  height: 200px;
+  width: 100%;
+}
+.fdland {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.flowbase {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.powered {
+  margin-left: 40%;
+  padding-top: 10px;
+}
