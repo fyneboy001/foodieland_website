@@ -1,5 +1,10 @@
 * {
   box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  padding: 0px 50px;
 }
 header {
   height: 100px;
@@ -9,12 +14,50 @@ header {
   align-items: center;
   padding: 50px;
 }
-ul {
-  display: flex;
-}
-ul li {
+li {
   list-style: none;
-  margin-left: 50px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.nav-bar {
+  min-height: 70px;
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-branding {
+  font-size: 2rem;
+}
+.nav-link {
+  transition: 0.7s ease;
+}
+.nav-link:hover {
+  color: red;
+}
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
 }
 .socia {
   padding: 10px;
@@ -30,8 +73,6 @@ a:active {
   height: 150px;
   width: 100%;
   background-color: white;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 .John {
   display: flex;
@@ -77,8 +118,6 @@ a:active {
   height: 500px;
   width: 100%;
   display: flex;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 .video {
   height: 500px;
@@ -105,14 +144,12 @@ a:active {
 .third {
   height: 130px;
   width: 100%;
-  padding: 40px 40px 0px 40px;
 }
 .forth {
-  height: 110vh;
+  height: 120vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 0px 40px 0px 40px;
 }
 .ingredient {
   height: 110vh;
@@ -135,7 +172,7 @@ a:active {
   margin-top: 10px;
 }
 .fifth {
-  height: 160vh;
+  height: 130vh;
   padding: 0px 40px;
 }
 .lore,
@@ -148,14 +185,12 @@ a:active {
   background-color: white;
   justify-content: center;
   text-align: center;
-  padding: 30px;
   margin-top: 50px;
 }
 .subsixth {
   height: 400px;
-  width: 95%;
+  width: 100%;
   background-color: #e7f9fd;
-  margin-left: 2.5%;
   border-radius: 30px;
   padding-bottom: 5px;
 }
@@ -164,11 +199,12 @@ a:active {
 }
 .flower {
   height: 20pc;
-  transform: translateY(-47px);
+  transform: translateY(10px);
 }
 .foo {
   height: 200px;
-  transform: translateY(15px);
+  transform: translateY(13px);
+  translate: 42px;
 }
 .subscribe {
   height: 250px;
@@ -177,8 +213,32 @@ a:active {
   justify-content: space-between;
   align-items: center;
 }
+.input {
+  height: 50px;
+  width: 75%;
+  background-color: transparent;
+  border: none;
+  padding: 8px;
+}
+.subscribebtn-container {
+  height: 50px;
+  width: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+.sub {
+  height: 40px;
+  width: 20%;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
 .seventh {
-  height: 400px;
+  height: 350px;
   width: 100%;
   display: block;
   text-align: center;
@@ -187,26 +247,15 @@ a:active {
   height: 350px;
   width: 100%;
   display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.tropical {
+  height: 180px;
 }
 .western {
   display: flex;
   margin-left: 10px;
-}
-.input {
-  height: 50px;
-  width: 30%;
-  border-radius: 20px;
-  border: none;
-  padding: 15px;
-}
-.sub {
-  height: 40px;
-  width: 10%;
-  background-color: black;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  transform: translateX(-130px);
 }
 footer {
   height: 200px;
@@ -229,4 +278,43 @@ footer {
 .powered {
   margin-left: 40%;
   padding-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .socia {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0px;
+    flex-direction: column;
+    background-color: white;
+    width: 30%;
+    text-align: left;
+    transition: 0.3s;
+  }
+  .nav-bar {
+    width: 100%;
+  }
+  .nav-item {
+    margin: 16px 0;
+  }
+  .nav-menu.active {
+    left: 0;
+    margin-left: 30%;
+  }
 }
