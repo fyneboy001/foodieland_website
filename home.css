@@ -42,6 +42,8 @@ a {
 
 .nav-branding {
   font-size: 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .nav-link {
   transition: 0.7s ease;
@@ -66,7 +68,7 @@ a {
   padding: 10px;
 }
 .first {
-  height: 620px;
+  height: 600px;
   width: 100%;
   display: flex;
 }
@@ -97,7 +99,27 @@ a {
 }
 .fork {
   height: 50px;
+  width: 55%;
   display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.timer {
+  background-color: rgb(197, 212, 216);
+  width: 45%;
+  align-content: center;
+  border-radius: 20px;
+  height: 40px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+.min {
+  transform: translateY(7px);
+  padding-right: 5px;
+}
+.for {
+  width: 40%;
 }
 .spicy {
   font-size: 70px;
@@ -105,19 +127,26 @@ a {
   margin-top: 0px;
 }
 .john {
-  height: 100px;
+  height: 60px;
   width: 90%;
   display: flex;
   margin-top: 20%;
   justify-content: space-between;
+  align-items: center;
 }
 .jhn,
 .vidbtn {
   display: flex;
 }
+.jhn {
+  width: 50%;
+  margin-left: 30px;
+  gap: 15px;
+  align-items: center;
+}
 .viewbtn {
   height: 40px;
-  width: 100%;
+  width: 150px;
   padding-right: 40px;
   color: white;
   background-color: black;
@@ -125,6 +154,11 @@ a {
   border: none;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+.smith {
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 .vid {
   height: 20px;
@@ -147,18 +181,27 @@ a {
   margin-left: 25px;
   margin-bottom: 45px;
 }
+.categories {
+  font-size: 40px;
+}
 .catbtn {
   height: 40px;
   width: 15%;
   background-color: #e7fafe;
   border: none;
   border-radius: 10px;
+  font-weight: bolder;
+  cursor: pointer;
 }
 .view {
   height: 100px;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  gap: 30px;
+}
+.responsive {
+  display: none;
 }
 .brea {
   height: 180px;
@@ -166,6 +209,10 @@ a {
   border-radius: 30px;
   padding: 10px;
   text-align: center;
+  transition: all 1s;
+}
+.brea:hover {
+  transform: scale(1.2);
 }
 .break {
   background: linear-gradient(to top, #7082461a, #70824600);
@@ -186,42 +233,65 @@ a {
   background: linear-gradient(to top, #0000000d, #00000000);
 }
 .third {
-  height: 180vh;
+  height: 200vh;
   width: 100%;
   background-color: white;
   text-align: center;
+  padding-top: 20px;
+}
+.tasty-recipe {
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+.tasty-container {
+  padding-bottom: 30px;
 }
 .fok {
   display: flex;
-  margin-top: 0px;
-  padding-left: 20px;
 }
 .foks {
   display: flex;
-  margin-top: 0px;
-  padding-left: 0px;
 }
 .tim {
-  margin-left: 20px;
+  height: 40px;
+  width: 45%;
+  font-size: 10px;
+  justify-content: left;
+  padding-right: 20px;
+  color: gray;
+}
+.timer-icon {
+  height: 20px;
 }
 .rep {
   height: 180vh;
   width: 30%;
   justify-content: center;
 }
-
+.juicy {
+  font-weight: bold;
+  text-align: left;
+  font-size: 17px;
+  padding-bottom: 13px;
+  padding-top: 5px;
+}
 .recip {
   height: 300px;
   width: 80%;
   background: linear-gradient(to top, #e7f9fd, #e7f9fd00);
   border-radius: 20px;
-  margin-top: 10px;
+  margin-top: 20px;
+  padding: 0 20px;
 }
 .repsize {
   height: 180px;
   width: 100%;
   margin-top: 0px;
   border-radius: 20px;
+  transition: all 1s;
+}
+.repsize:hover {
+  transform: scale(1.1);
 }
 .advert {
   height: 300px;
@@ -265,7 +335,7 @@ a {
 .happychef {
   height: 90%;
   margin-left: 50px;
-  margin-top: 7.5%;
+  margin-top: 8%;
 }
 .chef {
   height: 450px;
@@ -275,11 +345,10 @@ a {
   border-radius: 20px;
 }
 .fifth {
-  height: 140vh;
+  height: 130vh;
   width: 100%;
   text-align: center;
   padding-top: 50px;
-
   background: linear-gradient(to top, #e7f9fd, #e7f9fd00);
 }
 .Checkout {
@@ -287,33 +356,32 @@ a {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 5%;
-}
-.checkimg {
-  height: 70vh;
-  width: 22%;
-  background-color: white;
+  margin-top: 3%;
 }
 .chkpng {
-  height: 40vh;
+  height: 65vh;
   width: 100%;
   margin-top: 20%;
 }
 .checkbtn {
   height: 40px;
-  width: 20%;
+  width: 15%;
+  text-align: left;
+  padding-left: 15px;
   background-color: black;
   border: none;
   border-radius: 10px;
   color: white;
   cursor: pointer;
+  font-weight: bold;
 }
 .insta {
-  transform: translateX(-55px);
+  transform: translateY(7px);
+  translate: -40px;
   color: white;
 }
 .sixth {
-  height: 120vh;
+  height: 130vh;
   width: 100%;
 }
 .try {
@@ -324,6 +392,7 @@ a {
   justify-content: space-between;
   align-items: center;
   margin-top: 10%;
+  padding-bottom: 50px;
 }
 .deli,
 .para {
@@ -337,6 +406,7 @@ a {
   justify-content: space-evenly;
   align-items: center;
   margin-top: 50px;
+  padding-top: 50px;
 }
 .line1 {
   height: 95vh;
@@ -346,6 +416,10 @@ a {
   height: 165px;
   border-radius: 20px;
   margin-left: 4px;
+  transition: all 1s;
+}
+.lineimage:hover {
+  transform: scale(1.1);
 }
 .line2 {
   margin-top: 10%;
@@ -370,12 +444,16 @@ a {
 }
 .flower {
   height: 20pc;
-  transform: translateY(10px);
+  transform: translateY(-6px);
 }
 .foo {
   height: 200px;
-  transform: translateY(13px);
+  transform: translateY(-5px);
   translate: 42px;
+}
+.rucola {
+  translate: -6pc;
+  transform: translateY(8pc);
 }
 .subscribe {
   height: 250px;
@@ -421,18 +499,27 @@ footer {
   align-items: center;
 }
 .flowbase {
-  height: 50px;
+  height: 70px;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .powered {
   margin-left: 40%;
 }
+strong {
+  color: red;
+}
 
 /* responsive width for tablet */
 @media screen and (max-width: 768px) {
-  .socia {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .social .socia {
     display: none;
   }
   .hamburger {
@@ -468,20 +555,141 @@ footer {
     left: 0;
     margin-left: 50%;
   }
+  .first {
+    display: block;
+    height: 100vh;
+  }
+  .Hotrecipes {
+    width: 100%;
+    height: 50vh;
+  }
+  .john {
+    margin-top: 25px;
+  }
+  .spicy {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .badge {
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+  }
+  .bdg {
+    height: 130px;
+    translate: 5pc;
+  }
+  body {
+    padding: 0 50px;
+  }
+  .catbtn {
+    width: 30%;
+  }
+  .second {
+    padding: 0 20px;
+  }
+  .view {
+    display: none;
+  }
+  .responsive {
+    display: block;
+    gap: 10px;
+    padding: 0 30px;
+  }
+  .responsive-break {
+    display: flex;
+    justify-content: space-between;
+  }
+  .third {
+    height: 83vh;
+  }
+  .recip {
+    height: 200px;
+    width: 100%;
+    padding: 0 5px;
+  }
+  .repsize {
+    height: 120px;
+  }
+  .juicy {
+    font-size: 13px;
+    padding-bottom: 3px;
+  }
+  .tim {
+    width: 50%;
+  }
+  .advert {
+    height: 210px;
+    width: 100%;
+  }
+  .chkpng {
+    height: 220px;
+  }
+  .every {
+    font-size: 20px;
+    margin-top: 5pc;
+  }
+  .lorem {
+    font-size: 12px;
+  }
+  .learnbtn {
+    width: 50%;
+  }
+  .happychef {
+    translate: -5pc;
+    height: 330px;
+    transform: translateY(5.8pc);
+  }
+  .fifth {
+    height: 50vh;
+  }
+  .checkbtn {
+    width: 27%;
+  }
+  .Checkout {
+    height: 28vh;
+  }
+  .sixth {
+    padding-top: 20px;
+  }
+  .lineimage {
+    height: 100px;
+  }
+  .delicious {
+    font-size: 21px;
+  }
 }
 
 /* responsive width for mobile */
-/* @media screen and (max-width = 480px) {
-  .hamburger {
-    display: block;
+@media screen and (max-width: 480px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    box-sizing: border-box;
   }
-  .hamburger.active.bar:nth-child(2) {
-    opacity: 0;
+  body {
+    padding: 0px 10~px;
   }
-  .hamburger.active.bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+  .Hotrecipes {
+    width: 100%;
+    height: 60vh;
   }
-  .hamburger.active.bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+
+  /*.john {
+    margin-top: 25px;
   }
-} */
+  .spicy {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .badge {
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+  }
+  .bdg {
+    height: 10px;
+    translate: 5pc;
+  } */
+}
