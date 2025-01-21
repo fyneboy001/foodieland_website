@@ -408,6 +408,9 @@ a {
   margin-top: 50px;
   padding-top: 50px;
 }
+.linerr {
+  display: none;
+}
 .line1 {
   height: 95vh;
   width: 22%;
@@ -541,7 +544,7 @@ strong {
     gap: 0px;
     flex-direction: column;
     background-color: white;
-    width: 30%;
+    width: 40%;
     text-align: left;
     transition: 0.3s;
   }
@@ -576,7 +579,7 @@ strong {
     background-size: cover;
   }
   .bdg {
-    height: 130px;
+    height: 90px;
     translate: 5pc;
   }
   body {
@@ -658,6 +661,55 @@ strong {
   .delicious {
     font-size: 21px;
   }
+  .sixth {
+    height: 65vh;
+  }
+  .line {
+    display: none;
+  }
+  .linerr {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tropic {
+    font-size: 10px;
+    font-weight: 400px;
+  }
+  .time {
+    height: 50px;
+    width: 60%;
+    gap: 20px;
+  }
+  .timerrr {
+    height: 50px;
+    width: 40%;
+    gap: 20px;
+  }
+  .fork-icon {
+    margin-bottom: 10px;
+  }
+  .seventh {
+    height: 40vh;
+  }
+  .subseventh {
+    height: 35vh;
+  }
+  .flower {
+    height: 150px;
+    transform: translateY(2.1pc);
+    translate: 0.8px;
+  }
+  .rucola {
+    height: 50px;
+  }
+  .foo {
+    height: 150px;
+    translate: 1pc;
+    transform: translateY(0.8pc);
+  }
+  .powered {
+    margin-left: 10%;
+  }
 }
 
 /* responsive width for mobile */
@@ -669,11 +721,214 @@ strong {
     box-sizing: border-box;
   }
   body {
-    padding: 0px 10~px;
+    padding: 0px 30px;
+  }
+  .bar {
+    margin-left: 8.5pc;
+  }
+  .nav-menu {
+    text-align: center;
+  }
+  /* .first {
+    display: block;
+    height: 100vh;
+  } */
+  .recipe-icon {
+    height: 100px;
+    width: 60%;
   }
   .Hotrecipes {
     width: 100%;
-    height: 60vh;
+    height: 43vh;
+    border-radius: 20px;
+  }
+  .timer {
+    width: 40%;
+  }
+  .clock {
+    width: 50%;
+  }
+  .fork {
+    width: 80%;
+    justify-content: space-between;
+  }
+  .icon-timer {
+    height: 25px;
+    width: 30%;
+  }
+  .john {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .jhn-image {
+    height: 40px;
+    width: 40%;
+  }
+  .smith,
+  .date {
+    font-size: 10px;
+  }
+  .march {
+    width: 10pc;
+  }
+  .video-icon {
+    height: 20px;
+    width: 20%;
+  }
+  .vidbtn {
+    margin-left: 8px;
+  }
+
+  .spicy {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .sppa {
+    font-size: 12px;
+  }
+  .badge {
+    border-radius: 20px;
+  }
+  .bdg {
+    height: 50px;
+    width: 20%;
+    translate: 5pc;
+  }
+
+  /* second section */
+  .catbtn {
+    width: 60%;
+    font-size: 10px;
+  }
+  .categories {
+    font-size: 25px;
+  }
+  .responsive {
+    display: block;
+    gap: 10px;
+    padding: 0 0px;
+  }
+  .responsive-break {
+    display: flex;
+    justify-content: space-between;
+  }
+  .brea {
+    height: 140px;
+    width: 30%;
+  }
+  .third {
+    height: 83vh;
+  }
+  .tasty-recipe {
+    font-size: 25px;
+  }
+  .tasty-para {
+    font-size: 10px;
+  }
+  .recip {
+    height: 200px;
+    width: 100%;
+    padding: 0 5px;
+  }
+  .repsize {
+    height: 120px;
+  }
+  .juicy {
+    font-size: 13px;
+    padding-bottom: 3px;
+  }
+  .tim {
+    width: 50%;
+  }
+  .advert {
+    height: 210px;
+    width: 100%;
+  }
+  .chkpng {
+    height: 220px;
+  }
+  .every {
+    font-size: 20px;
+    margin-top: 5pc;
+  }
+  .lorem {
+    font-size: 12px;
+  }
+  .learnbtn {
+    width: 50%;
+  }
+  .happychef {
+    translate: -5pc;
+    height: 330px;
+    transform: translateY(5.8pc);
+  }
+  .fifth {
+    height: 50vh;
+  }
+  .checkbtn {
+    width: 27%;
+  }
+  .Checkout {
+    height: 28vh;
+  }
+  .sixth {
+    padding-top: 20px;
+  }
+  .lineimage {
+    height: 100px;
+  }
+  .delicious {
+    font-size: 21px;
+  }
+  .sixth {
+    height: 65vh;
+  }
+  .line {
+    display: none;
+  }
+  .linerr {
+    display: flex;
+    height: 40vh;
+  }
+  .tropic {
+    font-size: 10px;
+    font-weight: 400px;
+  }
+  .time {
+    height: 50px;
+    width: 60%;
+    gap: 20px;
+  }
+  .timerrr {
+    height: 50px;
+    width: 40%;
+    gap: 20px;
+  }
+  .fork-icon {
+    margin-bottom: 10px;
+  }
+  .seventh {
+    height: 40vh;
+  }
+  .subseventh {
+    height: 35vh;
+  }
+  .flower {
+    height: 150px;
+    transform: translateY(2.1pc);
+    translate: 0.8px;
+  }
+  .rucola {
+    height: 50px;
+  }
+  .foo {
+    height: 150px;
+    translate: 1pc;
+    transform: translateY(0.8pc);
+  }
+  .powered {
+    margin-left: 10%;
   }
 
   /*.john {
